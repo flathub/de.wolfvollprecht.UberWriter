@@ -5,6 +5,7 @@
   <summary>An elegant, free distraction GTK+ markdown editor</summary>
   <description>
     <p>Uberwriter is a GTK+ based distraction free Markdown editor, mainly developed by Wolf Vollprecht. It uses pandoc as backend for markdown parsing and offers a very clean and sleek user interface.</p>
+    <p>For Latex inline preview and the ability to export to pdf, please install the TexLive extension (coming soon)</p>
   </description>
   <categories>
     <category>Office</category>
@@ -34,6 +35,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2018-05-16" version="2.0.2">
+      <description>
+        <p>Fix a bug with the preview mode</p>
+      </description>
+    </release>
     <release date="2018-05-14" version="2.0.1">
       <description>
         <p>Don't use env variable to check if in flatpak</p>
