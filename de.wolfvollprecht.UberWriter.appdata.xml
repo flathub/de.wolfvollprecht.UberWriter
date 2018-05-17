@@ -15,23 +15,23 @@
   <screenshots>
     <screenshot type="default">
       <caption>The UberWriter main window</caption>
-      <image type="source">https://user-images.githubusercontent.com/8913975/39668441-37b97b9e-50ce-11e8-83b4-19f481c79468.png</image>
+      <image type="source">https://github.com/UberWriter/uberwriter/raw/master/screenshots/main.png</image>
     </screenshot>
     <screenshot>
       <caption>Dark theme available</caption>
-      <image type="source">https://user-images.githubusercontent.com/8913975/39668442-37ec83b8-50ce-11e8-9896-0d2f5876ebfb.png</image>
+      <image type="source">https://github.com/UberWriter/uberwriter/raw/master/screenshots/main-dark.png</image>
     </screenshot>
     <screenshot>
       <caption>With inline preview for formulas, images, footnotes and definitions</caption>
-      <image type="source">https://user-images.githubusercontent.com/8913975/39668440-379c4236-50ce-11e8-8c89-3d03c639953e.png</image>
+      <image type="source">https://github.com/UberWriter/uberwriter/raw/master/screenshots/formula.png</image>
     </screenshot>
     <screenshot>
       <caption>The preview mode shows a live preview of the rendered document</caption>
-      <image type="source">https://user-images.githubusercontent.com/8913975/39668443-380813f8-50ce-11e8-8bc1-b69f97fb6080.png</image>
+      <image type="source">https://github.com/UberWriter/uberwriter/raw/master/screenshots/preview.png</image>
     </screenshot>
     <screenshot>
       <caption>The focus mode helps you providing a clear environment for writing</caption>
-      <image type="source">https://user-images.githubusercontent.com/8913975/39668438-375ffbb4-50ce-11e8-8abe-1109702f8656.png</image>
+      <image type="source">https://github.com/UberWriter/uberwriter/raw/master/screenshots/focus.png</image>
     </screenshot>
   </screenshots>
   <releases>
