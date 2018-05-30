@@ -25,7 +25,7 @@
           "directory": "extensions",
           "version": "stable",
           "subdirectories": true,
-          "no-autodownload": true,
+          "no-autodownload": false,
           "autodelete": true
     }
     },
