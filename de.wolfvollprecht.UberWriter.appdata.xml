@@ -5,7 +5,6 @@
   <summary>An elegant, free distraction GTK+ markdown editor</summary>
   <description>
     <p>Uberwriter is a GTK+ based distraction free Markdown editor, mainly developed by Wolf Vollprecht. It uses pandoc as backend for markdown parsing and offers a very clean and sleek user interface.</p>
-    <p>For Latex inline preview and the ability to export to pdf, please install the TexLive extension (coming soon)</p>
   </description>
   <categories>
     <category>Office</category>
