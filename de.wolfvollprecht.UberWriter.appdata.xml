@@ -50,7 +50,7 @@
   </releases>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <url type="homepage">http://uberwriter.wolfvollprecht.de/</url>
+  <url type="homepage">http://uberwriter.github.io/uberwriter</url>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>
@@ -83,7 +83,7 @@
   <developer_name>Wolf Vollprecht</developer_name>
   <url type="bugtracker">https://github.com/UberWriter/uberwriter/issues</url>
   <url type="donation">https://www.paypal.me/WolfVollprecht</url>
-  <url type="help">http://uberwriter.wolfvollprecht.de</url>
+  <url type="help">http://uberwriter.github.io/uberwriter</url>
   <url type="translate">https://poeditor.com/join/project/gxVzFyXb2x</url>
   <update_contact>w.vollprecht_at_gmail.com</update_contact>
 </component>
