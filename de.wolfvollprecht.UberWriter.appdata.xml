@@ -32,6 +32,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2018-06-14" version="2.0.3">
+      <description>
+        <p>Small bug fixes, updated links</p>
+      </description>
+    </release>
     <release date="2018-05-16" version="2.0.2">
       <description>
         <p>Fix a bug with the preview mode</p>
@@ -86,4 +91,5 @@
   <url type="help">http://uberwriter.github.io/uberwriter</url>
   <url type="translate">https://poeditor.com/join/project/gxVzFyXb2x</url>
   <update_contact>w.vollprecht_at_gmail.com</update_contact>
+  <translation type="gettext">uberwriter</translation>
 </component>
