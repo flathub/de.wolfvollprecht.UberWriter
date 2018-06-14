@@ -35,9 +35,9 @@
         "sources": [
                 {
                     "type" : "git",
-                    "url" : "git://github.com/wolfv/uberwriter",
-                    "tag" : "v2.0.2",
-                    "commit": "1a56b355b1fd8530dd39441d3469d77cd0ef3aec"
+                    "url" : "git://github.com/UberWriter/uberwriter",
+                    "tag" : "v2.0.3",
+                    "commit": "bad7870e1f2c1d8c07c00a1c377abe40099642fc"
                 }
             ],
             "build-commands": [
