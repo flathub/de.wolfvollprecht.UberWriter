@@ -32,6 +32,18 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2018-07-18" version="2.1.0">
+      <description>
+        <p>This release features a ton of UX/UI improvements, like:</p>
+        <ul>
+          <li>Drop AppMenu support</li>
+          <li>HeaderBar and menus redesign, with a new unified menu and quick access buttons on the headerbar</li>
+          <li>Now the fullscreen view shows a headerbar when the cursor approaches the top of the screen</li>
+          <li>A new unified export dialog, with updated options, and quick access to pdf, odt and html export</li>
+          <li>Bugfixes</li>
+        </ul>
+      </description>
+    </release>
     <release date="2018-06-24" version="2.0.4">
       <description>
         <p>Now the menu is a Popover instead a regular menu</p>
