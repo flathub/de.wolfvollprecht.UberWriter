@@ -34,9 +34,7 @@
   <releases>
     <release date="2018-07-26" version="2.1.1">
       <description>
-        <p>This release provides a fix to a bug that caused Uberwriter to not mark
-        properly <strong>**bold**</strong>, <em>*cursive*</em> and <strong><em>
-        ***bold and cursive***</em></strong> words</p>
+        <p>This release provides a fix to a bug that caused Uberwriter to not mark properly **bold**, *cursive*, and ***bold and cursive*** words</p>
       </description>
     </release>
     <release date="2018-07-18" version="2.1.0">
