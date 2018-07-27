@@ -32,9 +32,18 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release date="2018-07-26" version="2.1.1">
+    <release date="2018-07-27" version="2.1.2">
       <description>
         <p>This release provides a fix to a bug that caused Uberwriter to not mark properly **bold**, *cursive*, and ***bold and cursive*** words</p>
+      </description>
+    </release>
+    <release date="2018-07-26" version="2.1.1">
+      <description>
+        <p>This release solves two minor bugs:</p>
+        <ul>
+          <li>One on focus mode which caused the lines to be highlighted on edit rather than on click</li>
+          <li>Non symbolic icons on the searchbar</li>
+        </ul>
       </description>
     </release>
     <release date="2018-07-18" version="2.1.0">
