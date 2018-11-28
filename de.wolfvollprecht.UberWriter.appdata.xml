@@ -4,7 +4,7 @@
   <name>UberWriter</name>
   <summary>An elegant, free distraction GTK+ markdown editor</summary>
   <description>
-    <p>Uberwriter is a GTK+ based distraction free Markdown editor, mainly developed by Wolf Vollprecht. It uses pandoc as backend for markdown parsing and offers a very clean and sleek user interface.</p>
+    <p>Uberwriter is a GTK+ based distraction free Markdown editor, mainly developed by Wolf Vollprecht and Manuel Genovés. It uses pandoc as backend for markdown parsing and offers a very clean and sleek user interface.</p>
     <p>You can install the recommended TexLive extension with the command:</p>
     <p>flatpak install flathub de.wolfvollprecht.UberWriter.Plugin.TexLive</p>
     <p>or from Gnome-Software</p>
@@ -32,6 +32,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2018-11-28" version="2.1.3">
+      <description>
+        <p>This release features a new logo, polishes the Appmenu, fixes usability bugs and flatpak related bugs.</p>
+      </description>
+    </release>
     <release date="2018-07-27" version="2.1.2">
       <description>
         <p>This release provides a fix to a bug that caused Uberwriter to not mark properly **bold**, *cursive*, and ***bold and cursive*** words</p>
@@ -118,7 +123,7 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-  <developer_name>Wolf Vollprecht</developer_name>
+  <developer_name>Wolf Vollprecht, Manuel Genovés</developer_name>
   <url type="bugtracker">https://github.com/UberWriter/uberwriter/issues</url>
   <url type="donation">https://liberapay.com/UberWriter/donate</url>
   <url type="help">http://uberwriter.github.io/uberwriter</url>

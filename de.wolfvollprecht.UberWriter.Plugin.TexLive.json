@@ -2,7 +2,7 @@
     "id": "de.wolfvollprecht.UberWriter.Plugin.TexLive",
     "runtime": "de.wolfvollprecht.UberWriter",
     "branch": "stable",
-    "sdk": "org.gnome.Sdk//3.26",
+    "sdk": "org.gnome.Sdk//3.28",
     "build-extension": true,
     "separate-locales": false,
     "appstream-compose": false,
