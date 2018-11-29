@@ -15,7 +15,7 @@
         "--filesystem=~/.config/dconf:ro",
         "--talk-name=ca.desrt.dconf",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
-        "--env=PATH=/app/extensions/TexLive/bin:/app/extensions/TexLive/2018/bin/x86_64-linux:/app/bin:/app/usr/bin"
+        "--env=PATH=/app/extensions/TexLive/bin:/app/extensions/TexLive/2018/bin/x86_64-linux:/app/bin"
     ],
     "build-options" : {
       "env": {
@@ -101,15 +101,15 @@
                     {
                         "type" : "git",
                         "url" : "git://github.com/UberWriter/uberwriter",
-                        "tag" : "v2.1.3",
-                        "commit": "296bdafcef4a53ef7acdd37471bbca5b32241b3f"
+                        "tag" : "v2.1.3c",
+                        "commit": "d084f24d899f3b068243fcea2a10cdef29e8829d"
                     }
                 ],
                 "build-commands": [
                     "install -Dm644 flatpak/de.wolfvollprecht.UberWriter.appdata.xml /app/share/appdata/de.wolfvollprecht.UberWriter.appdata.xml "
                 ],
                 "post-install": [
-                "glib-compile-schemas /app/usr/share/glib-2.0/schemas",
+                "glib-compile-schemas /app/share/glib-2.0/schemas",
                 "install -d /app/extensions"
                 ]
         }
