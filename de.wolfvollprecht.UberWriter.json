@@ -53,7 +53,7 @@
             ],
         "buildsystem": "simple",
         "build-commands": [
-          "mkdir -p /app/bin/pandoc",
+          "mkdir -p /app/bin",
           "cp bin/pandoc /app/bin/pandoc",
           "cp bin/pandoc-citeproc /app/bin/pandoc-citeproc"
             ],
