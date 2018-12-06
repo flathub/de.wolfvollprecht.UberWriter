@@ -10,7 +10,6 @@
         "--share=ipc",
         "--share=network",
         "--filesystem=host",
-        "--env=IN_FLATPAK=1",
         "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
         "--talk-name=ca.desrt.dconf",
@@ -19,8 +18,7 @@
     ],
     "build-options" : {
       "env": {
-        "PYTHON": "python3",
-        "IN_FLATPAK": "1"
+        "PYTHON": "python3"
         }
     },
     "add-extensions": {
@@ -102,8 +100,8 @@
                     {
                         "type" : "git",
                         "url" : "git://github.com/UberWriter/uberwriter",
-                        "tag" : "v2.1.3c",
-                        "commit": "d084f24d899f3b068243fcea2a10cdef29e8829d"
+                        "tag" : "v2.1.4",
+                        "commit": "226b4e81dc39ed775dc62ecf0e8827108ac47df9"
                     }
                 ],
                 "build-commands": [
