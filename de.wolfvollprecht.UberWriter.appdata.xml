@@ -16,6 +16,11 @@
     <category>TextEditor</category>
     <category>GTK</category>
   </categories>
+  <content_rating type="oars-1.1"/>
+  <update_contact>manuel.genoves_at_gmail.com</update_contact>
+  <releases>
+    <release date="2019-03-10" version="2.1.5-beta1"/>
+  </releases>
   <screenshots>
     <screenshot type="default">
       <image type="source">https://raw.githubusercontent.com/UberWriter/uberwriter/master/screenshots/main.png</image>
@@ -33,9 +38,4 @@
       <image type="source">https://raw.githubusercontent.com/UberWriter/uberwriter/master/screenshots/focus.png</image>
     </screenshot>
   </screenshots>
-  <content_rating type="oars-1.1"/>
-  <update_contact>manuel.genoves_at_gmail.com</update_contact>
-  <releases>
-    <release date="2019-03-10" version="2.1.5-beta1"/>
-  </releases>
 </component>
