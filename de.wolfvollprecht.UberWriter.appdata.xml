@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop-application">
+<component type="desktop">
   <id>de.wolfvollprecht.UberWriter</id>
-  <launchable type="desktop-id">de.wolfvollprecht.UberWriter.desktop</launchable>
   <name>UberWriter</name>
   <project_license>GPL-3.0+</project_license>
   <metadata_license>CC0-1.0</metadata_license>
@@ -19,7 +18,7 @@
   <content_rating type="oars-1.1"/>
   <update_contact>manuel.genoves_at_gmail.com</update_contact>
   <releases>
-    <release date="2019-03-10" version="2.1.5-beta1"/>
+    <release date="2019-03-10" version="2.1.5"/>
   </releases>
   <screenshots>
     <screenshot type="default">
