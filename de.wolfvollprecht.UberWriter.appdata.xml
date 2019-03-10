@@ -6,12 +6,8 @@
   <project_license>GPL-3.0+</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <summary>An elegant, free distraction GTK+ markdown editor</summary>
-  <developer_name>Wolf V., Manuel G.</developer_name>
+  <developer_name>Wolf Vollprecht</developer_name>
   <url type="homepage">http://uberwriter.github.io/uberwriter</url>
-  <url type="bugtracker">https://github.com/UberWriter/uberwriter/issues</url>
-  <url type="donation">https://liberapay.com/UberWriter/donate</url>
-  <url type="help">http://uberwriter.github.io/uberwriter</url>
-  <url type="translate">https://poeditor.com/join/project/gxVzFyXb2x</url>
   <description>
     <p>Uberwriter is a GTK+ based distraction free Markdown editor, mainly developed by Wolf Vollprecht and Manuel Genovés. It uses pandoc as backend for markdown parsing and offers a very clean and sleek user interface.</p>
   </description>
@@ -40,19 +36,6 @@
   <content_rating type="oars-1.1"/>
   <update_contact>manuel.genoves_at_gmail.com</update_contact>
   <releases>
-    <release version="2.1.5-beta1" date="2019-03-10">
-      <description>
-        <p>Changelog: </p>
-        <ul>
-          <li>Added italian language</li>
-          <li>Initial themes support: now uberwriter adapts his colors to the current GTK theme</li>
-          <li>Disabled scroll gradient, can be enabled in the preferences dialog</li>
-          <li>Allow to disable headerbar autohidding in Dconf</li>
-          <li>Now a single click is enough to open files in the recent files popover</li>
-          <li>Spellchecking status is now saved between sessions</li>
-          <li>Minor UI and functional fixes</li>
-        </ul>
-      </description>
-    </release>
+    <release date="2019-03-10" version="2.1.5-beta1"/>
   </releases>
 </component>
