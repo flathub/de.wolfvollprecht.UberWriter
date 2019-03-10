@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>de.wolfvollprecht.UberWriter</id>
   <launchable type="desktop-id">de.wolfvollprecht.UberWriter.desktop</launchable>
   <name>UberWriter</name>
@@ -32,20 +32,6 @@
       <image type="source">https://raw.githubusercontent.com/UberWriter/uberwriter/master/screenshots/focus.png</image>
     </screenshot>
   </screenshots>
-  <releases>
-    <release date="2019-03-10" version="2.1.5-beta1">
-      <description>
-        <ul>
-          <li>Added italian language</li>
-          <li>Initial themes support: now uberwriter adapts his colors to the current GTK theme</li>
-          <li>Disabled scroll gradient, can be enabled in the preferences dialog</li>
-          <li>Allow to disable headerbar autohidding in Dconf</li>
-          <li>Now a single click is enough to open files in the recent files popover</li>
-          <li>Spellchecking status is now saved between sessions</li>
-          <li>Minor UI fixes</li>
-      </description>
-    </release>
-  </releases>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <url type="homepage">http://uberwriter.github.io/uberwriter</url>
@@ -57,4 +43,20 @@
   <url type="translate">https://poeditor.com/join/project/gxVzFyXb2x</url>
   <update_contact>manuel.genoves_at_gmail.com</update_contact>
   <translation type="gettext">uberwriter</translation>
+  <releases>
+    <release version="2.1.5-beta1" date="2019-03-10">
+      <description>
+        <p>Changelog: </p>
+        <ul>
+          <li>Added italian language</li>
+          <li>Initial themes support: now uberwriter adapts his colors to the current GTK theme</li>
+          <li>Disabled scroll gradient, can be enabled in the preferences dialog</li>
+          <li>Allow to disable headerbar autohidding in Dconf</li>
+          <li>Now a single click is enough to open files in the recent files popover</li>
+          <li>Spellchecking status is now saved between sessions</li>
+          <li>Minor UI and functional fixes</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
 </component>
