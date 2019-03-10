@@ -3,7 +3,15 @@
   <id>de.wolfvollprecht.UberWriter</id>
   <launchable type="desktop-id">de.wolfvollprecht.UberWriter.desktop</launchable>
   <name>UberWriter</name>
+  <project_license>GPL-3.0+</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
   <summary>An elegant, free distraction GTK+ markdown editor</summary>
+  <developer_name>Wolf V., Manuel G.</developer_name>
+  <url type="homepage">http://uberwriter.github.io/uberwriter</url>
+  <url type="bugtracker">https://github.com/UberWriter/uberwriter/issues</url>
+  <url type="donation">https://liberapay.com/UberWriter/donate</url>
+  <url type="help">http://uberwriter.github.io/uberwriter</url>
+  <url type="translate">https://poeditor.com/join/project/gxVzFyXb2x</url>
   <description>
     <p>Uberwriter is a GTK+ based distraction free Markdown editor, mainly developed by Wolf Vollprecht and Manuel Genovés. It uses pandoc as backend for markdown parsing and offers a very clean and sleek user interface.</p>
     <p>You can install the recommended TexLive extension with the command:</p>
@@ -32,17 +40,8 @@
       <image type="source">https://raw.githubusercontent.com/UberWriter/uberwriter/master/screenshots/focus.png</image>
     </screenshot>
   </screenshots>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0+</project_license>
-  <url type="homepage">http://uberwriter.github.io/uberwriter</url>
   <content_rating type="oars-1.1"/>
-  <developer_name>Wolf V., Manuel G.</developer_name>
-  <url type="bugtracker">https://github.com/UberWriter/uberwriter/issues</url>
-  <url type="donation">https://liberapay.com/UberWriter/donate</url>
-  <url type="help">http://uberwriter.github.io/uberwriter</url>
-  <url type="translate">https://poeditor.com/join/project/gxVzFyXb2x</url>
   <update_contact>manuel.genoves_at_gmail.com</update_contact>
-  <translation type="gettext">uberwriter</translation>
   <releases>
     <release version="2.1.5-beta1" date="2019-03-10">
       <description>
