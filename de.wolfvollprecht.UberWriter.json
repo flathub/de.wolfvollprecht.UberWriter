@@ -1,7 +1,7 @@
 {
     "app-id": "de.wolfvollprecht.UberWriter",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.30",
+    "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
     "command": "uberwriter",
     "finish-args": [
@@ -81,27 +81,13 @@
             ]
         },
         {
-            "name": "appdata",
-            "buildsystem": "simple",
-            "build-commands": [
-                "mkdir -p /app/share/appdata",
-                "install -Dm644 de.wolfvollprecht.UberWriter.appdata.xml /app/share/appdata/de.wolfvollprecht.UberWriter.appdata.xml"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "path": "de.wolfvollprecht.UberWriter.appdata.xml"
-                }
-            ]
-        },
-        {
             "name": "uberwriter",
             "sources": [
                     {
                         "type" : "git",
                         "url" : "git://github.com/UberWriter/uberwriter",
-                        "tag" : "v2.1.4",
-                        "commit": "226b4e81dc39ed775dc62ecf0e8827108ac47df9"
+                        "tag" : "v2.1.5",
+                        "commit": "741cda968a25fcd960d68602cc947c3155f0393e"
                     }
                 ],
                 "build-commands": [
