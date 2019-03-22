@@ -1,7 +1,7 @@
 {
     "app-id": "de.wolfvollprecht.UberWriter",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.30",
+    "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
     "command": "uberwriter",
     "finish-args": [
@@ -86,8 +86,8 @@
                     {
                         "type" : "git",
                         "url" : "git://github.com/UberWriter/uberwriter",
-                        "tag" : "v2.1.5-beta3",
-                        "commit": "f0ad4f4d9421b1747bdf65b7eb96030366b63144"
+                        "tag" : "v2.1.5",
+                        "commit": "741cda968a25fcd960d68602cc947c3155f0393e"
                     }
                 ],
                 "build-commands": [
