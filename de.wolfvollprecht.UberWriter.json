@@ -86,8 +86,8 @@
                     {
                         "type" : "git",
                         "url" : "git://github.com/UberWriter/uberwriter",
-                        "tag" : "v2.2.0-beta1.1",
-                        "commit": "6baa3989957523f6fcded89007d5d5c8921916e5"
+                        "tag" : "v2.2.0-beta1.2",
+                        "commit": "d3c9b81fe8de02b9916d3655937811fecf18ddfc"
                     }
                 ],
                 "build-commands": [
