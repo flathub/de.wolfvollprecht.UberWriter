@@ -91,7 +91,7 @@
                     }
                 ],
                 "build-commands": [
-                    "install -Dm644 flatpak/de.wolfvollprecht.UberWriter.appdata.xml /app/share/appdata/de.wolfvollprecht.UberWriter.appdata.xml "
+                    "install -Dm644 data/de.wolfvollprecht.UberWriter.appdata.xml /app/share/appdata/de.wolfvollprecht.UberWriter.appdata.xml "
                 ],
                 "post-install": [
                 "glib-compile-schemas /app/share/glib-2.0/schemas",
