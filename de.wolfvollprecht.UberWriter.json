@@ -3,7 +3,7 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
-    "command": "uberwriter",
+    "command": "start-uberwriter",
     "finish-args": [
         "--socket=x11",
         "--socket=wayland",
@@ -13,14 +13,8 @@
         "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
         "--talk-name=ca.desrt.dconf",
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
-        "--env=PATH=/app/extensions/TexLive/bin:/app/extensions/TexLive/2018/bin/x86_64-linux:/app/bin:/usr/bin"
+        "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
     ],
-    "build-options" : {
-      "env": {
-        "PYTHON": "python3"
-        }
-    },
     "add-extensions": {
         "de.wolfvollprecht.UberWriter.Plugin": {
           "directory": "extensions",
@@ -52,9 +46,8 @@
             ],
         "buildsystem": "simple",
         "build-commands": [
-          "mkdir -p /app/bin",
-          "cp bin/pandoc /app/bin/pandoc",
-          "cp bin/pandoc-citeproc /app/bin/pandoc-citeproc"
+          "install -Dm 755 bin/pandoc /app/bin/pandoc",
+          "install -Dm 755 bin/pandoc-citeproc /app/bin/pandoc-citeproc"
             ],
         "sources": [
                 {
@@ -81,22 +74,41 @@
             ]
         },
         {
-            "name": "uberwriter",
+        "name": "uberwriter",
+        "buildsystem": "simple",
+        "build-commands": [
+          "desktop-file-edit --set-key=Exec --set-value='uberwriter.in %U' data/de.wolfvollprecht.UberWriter.desktop",
+          "python3 -m pip install --prefix=/app --install-option=--optimize=1 ."
+        ],
+        "sources": [
+                {
+                    "type" : "git",
+                    "url" : "git://github.com/UberWriter/uberwriter",
+                    "tag" : "v2.2.0-beta1.4",
+                    "commit": "181af445e69d9ef461480912a75a38bb0e19cdd5"
+                }
+            ],
+            "post-install": [
+                "install -d /app/extensions",
+                "glib-compile-schemas /app/share/glib-2.0/schemas"
+            ]
+        },
+        {
+            "name": "scripts",
+            "buildsystem": "simple",
+            "build-commands": [
+                  "install -Dm 755 start-uberwriter.sh /app/bin/start-uberwriter"
+            ],
             "sources": [
-                    {
-                        "type" : "git",
-                        "url" : "git://github.com/UberWriter/uberwriter",
-                        "tag" : "v2.2.0-beta1.3",
-                        "commit": "ec3dc6d6324656adf620b5d02ee5639669af29f2"
-                    }
-                ],
-                "build-commands": [
-                    "install -Dm644 data/de.wolfvollprecht.UberWriter.appdata.xml /app/share/appdata/de.wolfvollprecht.UberWriter.appdata.xml "
-                ],
-                "post-install": [
-                "glib-compile-schemas /app/share/glib-2.0/schemas",
-                "install -d /app/extensions"
-                ]
+                {
+                    "type": "script",
+                    "dest-filename": "start-uberwriter.sh",
+                    "commands": [
+                        "export PATH=/app/extensions/TexLive/bin:/app/extensions/TexLive/2018/bin/$(uname -a)-linux:$PATH",
+                        "exec uberwriter.in \"$@\""
+                    ]
+                }
+            ]
         }
     ]
-    }
+}
