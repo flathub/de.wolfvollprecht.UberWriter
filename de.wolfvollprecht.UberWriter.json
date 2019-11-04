@@ -107,7 +107,7 @@
              {
                 "type" : "git",
                 "url" : "git://github.com/UberWriter/uberwriter",
-                "commit": "680ef98a7505b565894bbd6c8e821f956e305bc3"
+                "commit": "a9650d86bfc6022393db566ee306e326101f35b5"
              }
           ],
           "post-install":[
