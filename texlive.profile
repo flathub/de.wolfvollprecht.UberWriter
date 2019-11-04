@@ -1,11 +1,11 @@
 selected_scheme scheme-basic
-TEXDIR /app/extensions/TexLive/2018
-TEXMFCONFIG /app/extensions/TexLive/.texlive2018/texmf-config
+TEXDIR /app/extensions/TexLive/2019
+TEXMFCONFIG /app/extensions/TexLive/.texlive2019/texmf-config
 TEXMFHOME /app/extensions/TexLive/texmf
 TEXMFLOCAL /app/extensions/TexLive/texmf-local
-TEXMFSYSCONFIG /app/extensions/TexLive/2018/texmf-config
-TEXMFSYSVAR /app/extensions/TexLive/2018/texmf-var
-TEXMFVAR /app/extensions/TexLive/.texlive2018/texmf-var
+TEXMFSYSCONFIG /app/extensions/TexLive/2019/texmf-config
+TEXMFSYSVAR /app/extensions/TexLive/2019/texmf-var
+TEXMFVAR /app/extensions/TexLive/.texlive2019/texmf-var
 binary_x86_64-linux 1
 collection-latex 1
 collection-binextra 1
