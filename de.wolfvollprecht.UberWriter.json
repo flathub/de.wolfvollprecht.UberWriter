@@ -3,6 +3,7 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
+    "sdk-extensions": "org.freedesktop.Sdk.Extension.texlive"
     "command": "uberwriter",
     "finish-args": [
         "--socket=x11",
@@ -14,23 +15,20 @@
         "--filesystem=~/.config/dconf:ro",
         "--talk-name=ca.desrt.dconf",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
-        "--env=PATH=/app/extensions/TexLive/bin:/app/extensions/TexLive/2018/bin/x86_64-linux:/app/bin:/usr/bin"
+        "--env=PATH=/usr/bin:/app/bin:/app/bin/x86_64-linux"
     ],
     "build-options" : {
       "env": {
-        "PYTHON": "python3"
+        "PYTHON": "python3",
+        "LD_LIBRARY_PATH": "/app/lib:/app/lib64"
         }
     },
-    "add-extensions": {
-        "de.wolfvollprecht.UberWriter.Plugin": {
-          "directory": "extensions",
-          "version": "stable",
-          "subdirectories": true,
-          "no-autodownload": true,
-          "autodelete": true
-    }
-    },
     "modules": [
+        {
+        "name": "texlive",
+        "buildsystem": "simple",
+        "build-commands": "/usr/lib/sdk/texlive/install.sh"
+        },
         {
         "name": "enchant",
         "config-opts": ["--disable-static", "--with-myspell-dir=/usr/share/hunspell"],
