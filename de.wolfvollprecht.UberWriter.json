@@ -3,7 +3,7 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
-    "sdk-extensions": "org.freedesktop.Sdk.Extension.texlive"
+    "sdk-extensions": "org.freedesktop.Sdk.Extension.texlive",
     "command": "uberwriter",
     "finish-args": [
         "--socket=x11",
