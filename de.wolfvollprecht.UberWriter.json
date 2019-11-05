@@ -27,7 +27,7 @@
         {
         "name": "texlive",
         "buildsystem": "simple",
-        "build-commands": "/usr/lib/sdk/texlive/install.sh"
+        "build-commands": ["/usr/lib/sdk/texlive/install.sh"]
         },
         {
         "name": "enchant",
