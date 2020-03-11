@@ -1,7 +1,7 @@
 {
     "app-id": "de.wolfvollprecht.UberWriter",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "uberwriter",
     "finish-args": [
@@ -10,10 +10,7 @@
         "--share=ipc",
         "--share=network",
         "--filesystem=host",
-        "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf",
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
+        "--metadata=X-DConf=migrate-path=/de/wolfvollprecht/UberWriter/",
         "--env=PATH=/app/extensions/TexLive/bin:/app/extensions/TexLive/2018/bin/x86_64-linux:/app/bin:/usr/bin"
     ],
     "build-options" : {
@@ -59,8 +56,8 @@
         "sources": [
                 {
             "type": "archive",
-            "url": "https://github.com/jgm/pandoc/releases/download/2.2/pandoc-2.2-linux.tar.gz",
-            "sha256": "06ecd882e42ef9b7390b1c82e1e71b3ea48679181289b9b810a8797825bed8ed"
+            "url": "https://github.com/jgm/pandoc/releases/download/2.9.2/pandoc-2.9.2-linux-amd64.tar.gz",
+            "sha256": "039f155b6166c1e268479bcb06af2dba99eb7795cbff7b3c13b4875388195d08"
                 }
             ]
         },
