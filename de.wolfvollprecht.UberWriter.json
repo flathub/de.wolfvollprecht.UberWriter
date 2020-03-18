@@ -97,7 +97,7 @@
           "sources":[
              {
                 "type" : "git",
-                "url" : "git@gitlab.gnome.org:somas/apostrophe.git",
+                "url" : "https://gitlab.gnome.org/somas/apostrophe.git",
                 "commit": "833e75b0ab29b2c66b5eb92f236dd8bd080cd615"
              }
           ],
