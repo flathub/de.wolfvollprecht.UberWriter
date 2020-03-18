@@ -3,15 +3,15 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
-    "command": "uberwriter",
+    "command": "apostrophe",
     "finish-args": [
         "--socket=x11",
         "--socket=wayland",
         "--share=ipc",
         "--share=network",
         "--filesystem=host",
-        "--env=PATH=/app/bin:/usr/bin:/app/extensions/TexLive/2019/bin/x86_64-linux/",
-        "--metadata=X-DConf=migrate-path=/de/wolfvollprecht/UberWriter/"
+        "--env=PATH=/app/bin:/usr/bin:/app/extensions/TexLive/2018/bin/x86_64-linux/",
+        "--metadata=X-DConf=migrate-path=/de/wolfvollprecht/Apostrophe/"
     ],
     "add-extensions": {
         "de.wolfvollprecht.UberWriter.Plugin": {
@@ -92,13 +92,13 @@
         }]
     },
        {
-          "name":"uberwriter",
+          "name":"apostrophe",
           "buildsystem":"meson",
           "sources":[
              {
                 "type" : "git",
-                "url" : "git://github.com/UberWriter/uberwriter",
-                "commit": "af2975d48a374cb98b997e7b61163d82f41d0e5b"
+                "url" : "git@gitlab.gnome.org:somas/apostrophe.git",
+                "commit": "c1a134496f98a9849cb7e58c0238f36c5f7de7b2"
              }
           ],
           "post-install":[
