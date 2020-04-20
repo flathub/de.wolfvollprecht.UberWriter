@@ -85,9 +85,9 @@
             "sources": [
                     {
                         "type" : "git",
-                        "url" : "git://github.com/UberWriter/uberwriter",
-                        "tag" : "v2.1.5",
-                        "commit": "741cda968a25fcd960d68602cc947c3155f0393e"
+                        "url" : "https://gitlab.gnome.org/somas/apostrophe.git",
+                        "branch": "uberwriter-EOL",
+                        "commit": "5ec93635823c1c8aaa38a10b64e7f7d7c120ebc1"
                     }
                 ],
                 "build-commands": [
